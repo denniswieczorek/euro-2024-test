@@ -89,7 +89,8 @@ export class GroupStage extends Component<Signature> {
   <template>
     <div class='ba pa-4 flex-column w-7 ma-2' >
 
-          <div class='f-4'>
+        <div class='f-4'>
+
           Group {{@group.name}}
         </div>
         <div class='flex-row mt-1'>
@@ -99,6 +100,8 @@ export class GroupStage extends Component<Signature> {
             <div class='pa-2 ba mr-1 f-7 w-3 mh-auto flex-row justify-center'
               {{on 'click' (fn this.addSelection team.id)}}
               > 
+                <span class="tournament-bracket__flag  fi  fi-{{team.code}}" aria-label="Flag"></span>
+
               {{team.shortName}}
             </div>
           {{/let}}

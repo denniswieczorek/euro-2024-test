@@ -81,14 +81,12 @@
     "ember-cli-sri": "^2.1.1",
     "ember-cli-terser": "^4.0.2",
     "ember-data": "~5.3.3",
-    "ember-drag-sort": "^3.0.1",
     "ember-fetch": "^8.1.2",
     "ember-load-initializers": "^2.1.2",
     "ember-modifier": "^4.1.0",
     "ember-page-title": "^8.2.3",
     "ember-qunit": "^8.0.2",
     "ember-resolver": "^11.0.1",
-    "ember-sortable": "^5.0.2",
     "ember-source": "~5.9.0",
     "ember-template-imports": "^4.1.1",
     "ember-template-lint": "^5.13.0",
@@ -112,6 +110,8 @@
     "webpack": "^5.91.0"
   },
   "dependencies": {
+    "flag-icons": "^7.2.3",
+    "html2pdf.js": "^0.10.1",
     "yams.css": "https://github.com/denniswieczorek/yams.css"
   },
   "engines": {
