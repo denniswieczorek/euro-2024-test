@@ -105,6 +105,9 @@ function getTeam(rule: 'a' | 'b', match: Match, model: PredictionModel) {
 
 }
 
+
+
+
 // function isIn(a: string, b: string[]) {
 //   return b.includes(a)
 // }
